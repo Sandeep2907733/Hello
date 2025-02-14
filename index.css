@@ -1,0 +1,77 @@
+.Big{
+    display: grid;
+    place-items: center;
+    top: 200px;
+    position: relative;
+    border:5px solid #b22;
+    border-radius: 50px;
+    height:113px;
+    width:200px;
+}
+.petals img {
+    height:70px;
+    width:70px;
+}
+h1{
+    text-align:center;
+}
+.btn {
+    justify-content: space-evenly;
+    display: flex;
+}
+.btn1 {
+    height:45px;
+    width:85px;
+    border-radius:30px;
+    border:2px #b22222 solid;
+    background:#b22;  
+}
+.btn1:hover .stars{
+    display:block;
+    filter:drop-shadow(0 0 10px #fffdef);
+}
+.btn2 {
+    height:45px;
+    width:85px;
+    border-radius:30px;
+    border:2px #b22222 solid;
+    background:#b22;  
+}
+.vid {
+    position: absolute;
+    left: 70px;
+    bottom: 135px;
+}
+img{
+    width: 100px;
+    height: 84px;
+    position: absolute;
+    top: 120px;
+    left: 130px;
+}
+.couplevideo{
+    position: absolute;
+    bottom: 75px;
+    left: 95px;
+}
+button:hover{
+background:#fffdd0;
+color:red;
+font-style:bold;
+}
+.btn1:active{
+width:100px;
+height:100px;
+}
+.btn2:active {
+  display:none;
+}
+@media(max-width:800px){
+  
+    .Big{
+        width:310px;
+        height: 213px;
+        left: 40px;
+    position: absolute
+    }
+}
